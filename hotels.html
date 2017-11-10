@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+  </head>
+  <body>
+<header class="page-header">
+  <nav>
+    <ul>
+      <li><a href="#">Информация</a></li>
+      <li><a href="#">Фото и видео</a></li>
+      <li><a href="#">Карта штата</a></li>
+      <li><a href="#">Гостиницы</a></li>
+    </ul>
+    <ul>
+      <li><a href="index.html"> <img src="http://placehold.it/50x50" alt="Логотип"></a> </li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="apartment-selection">
+    <form class="selection" action="index.html" method="post">
+      <legend>Инраструктура:</legend>
+       <ul>
+        <li>
+        <input id="selection-pool" type="checkbox" name="Бассейн" checked>
+        <label for="selection-pool">Бассейн</label>
+        </li>
+        <li>
+        <input id="selection-parking" type="checkbox" name="parking-place">
+        <label for="selection-parking">Парковка</label>
+        </li>
+        <li>
+        <input id="selection-wifi" type="checkbox" name="wifi">
+        <label for="selection-wifi">Wi-Fi</label>
+        </li>
+       </ul>
+      <legend>Тип жилья:</legend>
+       <ul>
+        <li>
+        <input id="gostiniza" type="checkbox" name="hotel" checked>
+        <label for="gostiniza">Гостиница</label>
+        </li>
+        <li>
+        <input id="motel" type="checkbox" name="motel" checked>
+        <label for="motel">Мотель</label>
+        </li>
+        <li>
+        <input id="apartments" type="checkbox" name="apartments" checked>
+        <label for="apartments">Апартаменты</label>
+        </li>
+       </ul>
+      <!-- <legend>Стоимость в сутки(р):</legend>
+    Что с этим делать я так и не понял-->
+        <button type="submit" name="show">Показать</button>
+    </form>
+  </section>
+<footer class="page-footer">
+  <article class="#">
+    <a href="#">#Visitsedona</a>
+  </article>
+<article class="social-webs">
+  <ul>
+    <li>
+    <a href="#">
+      <img src="http://placehold.it/46x48" alt="Twitter">
+    </a>
+    </li>
+    <li>
+    <a href="#">
+      <img src="http://placehold.it/46x48" alt="Facebook">
+    </a>
+    </li>
+    <li>
+    <a href="#">
+      <img src="http://placehold.it/46x48" alt="Youtube">
+    </a>
+    </li>
+  </ul>
+</article>
+<article class="Html-Academy">
+  <a href="https://htmlacademy.ru/">
+    <img src="img/logo-htmlacademy.svg" width="200" height="40" alt="Ссылка на академию">
+  </a>
+</article>
+</footer>
+  </body>
+</html>
