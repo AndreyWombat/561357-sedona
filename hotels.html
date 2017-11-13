@@ -13,19 +13,17 @@
       <li><a href="#">Карта штата</a></li>
       <li><a href="#">Гостиницы</a></li>
     </ul>
-    <ul>
-      <li><a href="index.html"> <img src="http://placehold.it/50x50" alt="Логотип"></a> </li>
-    </ul>
+    <a href="index.html"> <img src="http://placehold.it/50x50" alt="Логотип"></a>
   </nav>
 </header>
 
 <main>
-  <section class="apartment-selection">
-    <form class="selection" action="index.html" method="post">
+    <form class="selection" action="index.html" method="get">
+      <fieldset>
       <legend>Инраструктура:</legend>
        <ul>
         <li>
-        <input id="selection-pool" type="checkbox" name="Бассейн" checked>
+        <input id="selection-pool" type="checkbox" name="pool" checked>
         <label for="selection-pool">Бассейн</label>
         </li>
         <li>
@@ -40,8 +38,8 @@
       <legend>Тип жилья:</legend>
        <ul>
         <li>
-        <input id="gostiniza" type="checkbox" name="hotel" checked>
-        <label for="gostiniza">Гостиница</label>
+        <input id="hotel" type="checkbox" name="hotel" checked>
+        <label for="hotel">Гостиница</label>
         </li>
         <li>
         <input id="motel" type="checkbox" name="motel" checked>
@@ -52,39 +50,93 @@
         <label for="apartments">Апартаменты</label>
         </li>
        </ul>
-      <!-- <legend>Стоимость в сутки(р):</legend>
-    Что с этим делать я так и не понял-->
-        <button type="submit" name="show">Показать</button>
+      <!-- Будет скринкаст по этому блоку: "Стоимость в сутки(р):"-->
+        <button type="submit">Показать</button>
+        </fieldset>
     </form>
+    <b>Найдено:3</b>
+    <p>Сортировка:</p>
+    <nav>
+    <ul>
+      <li><a href="#">По цене</a></li>
+      <li><a href="#">По типу</a></li>
+      <li><a href="#">По рейтингу</a></li>
+    </ul>
+    <ul>
+      <li><a href="#"><img src="http://placehold.it/10x10" alt="up"></a></li>
+      <li><a href="#"><img src="http://placehold.it/10x10" alt="down"></a></li>
+    </ul>
+    </nav>
+    <hr>
+    <section class="results">
+      <section class="search-results">
+        <div class="left">
+          <img src="http://placehold.it/135x90" alt="Первый отель">
+          <b>Amara resort & spa</b>
+          <p>Гостиница</p>
+          <p>от 4000</p>
+          <a href="#">Подробнее</a>
+          <a href="#">Забронировать</a>
+        </div>
+        <div class="right">
+          <img src="img/star.svg" width="19" height="17" alt="Звёздочка">
+          <img src="img/star.svg" width="19" height="17" alt="Звёздочка">
+          <img src="img/star.svg" width="19" height="17" alt="Звёздочка">
+          <img src="img/star.svg" width="19" height="17" alt="Звёздочка">
+          <p class="rating">Рейтинг: 8,5</p>
+        </div>
+      </section>
+      <hr>
+      <section class="search-results">
+        <div class="left">
+          <img src="http://placehold.it/135x90" alt="Второй отель">
+          <b>Desert quail inn</b>
+          <p>Мотель</p>
+          <p>от 3000</p>
+          <a href="#">Подробнее</a>
+          <a href="#">Забронировать</a>
+        </div>
+        <div class="right">
+          <img src="img/star.svg" width="19" height="17" alt="Звёздочка">
+          <img src="img/star.svg" width="19" height="17" alt="Звёздочка">
+          <img src="img/star.svg" width="19" height="17" alt="Звёздочка">
+          <p class="rating">Рейтинг: 8,9</p>
+        </div>
+      </section>
+      <hr>
+      <section class="search-results">
+        <div class="left">
+          <img src="http://placehold.it/135x90" alt="Третий отель">
+          <b>Villas at poco diablo</b>
+          <p>Апартаменты</p>
+          <p>от 2000</p>
+          <a href="#">Подробнее</a>
+          <a href="#">Забронировать</a>
+        </div>
+        <div class="right">
+          <img src="img/star.svg" width="19" height="17" alt="Звёздочка">
+          <img src="img/star.svg" width="19" height="17" alt="Звёздочка">
+          <p class="rating">Рейтинг: 9,2</p>
+        </div>
+      </section>
+      <hr>
+    </section>
+  <footer class="page-footer">
+    <section class="#">
+      <a href="#">#Visitsedona</a>
+    </section>
+  <section class="social-webs">
+    <ul>
+        <li><img src="http://placehold.it/46x48" alt="Twitter"></li>
+        <li><img src="http://placehold.it/46x48" alt="Facebook"></li>
+        <li><img src="http://placehold.it/46x48" alt="Youtube"></li>
+    </ul>
   </section>
-<footer class="page-footer">
-  <article class="#">
-    <a href="#">#Visitsedona</a>
-  </article>
-<article class="social-webs">
-  <ul>
-    <li>
-    <a href="#">
-      <img src="http://placehold.it/46x48" alt="Twitter">
+  <div class="Html-Academy">
+    <a href="https://htmlacademy.ru/">
+      <img src="img/logo-htmlacademy.svg" width="200" height="40" alt="Ссылка на академию">
     </a>
-    </li>
-    <li>
-    <a href="#">
-      <img src="http://placehold.it/46x48" alt="Facebook">
-    </a>
-    </li>
-    <li>
-    <a href="#">
-      <img src="http://placehold.it/46x48" alt="Youtube">
-    </a>
-    </li>
-  </ul>
-</article>
-<article class="Html-Academy">
-  <a href="https://htmlacademy.ru/">
-    <img src="img/logo-htmlacademy.svg" width="200" height="40" alt="Ссылка на академию">
-  </a>
-</article>
-</footer>
-  </body>
-</html>
+  </div>
+  </footer>
+    </body>
+  </html>

@@ -13,65 +13,61 @@
       <li><a href="#">Карта штата</a></li>
       <li><a href="hotels.html">Гостиницы</a></li>
     </ul>
-    <ul>
-      <li><a href="#"> <img src="http://placehold.it/150x100" alt="Логотип"></a> </li>
-    </ul>
+    <a href="#"> <img src="http://placehold.it/150x100" alt="Логотип"></a>
   </nav>
 </header>
 
 <main>
-  <section class="welkom-to-sedona">
-    <img src="http://placehold.it/1202x510" alt="Гора">
+  <section class="welkom-to-sedon">
+    <img src="http://placehold.it/500x380" alt="Welcome to sedona">
+  </section>
     <section class="discription-sedona">
-      <h1>Седона - небольшой городок в аризоне заслуживающий большего!</h1>
+      <h2>Седона - небольшой городок в аризоне заслуживающий большего!</h2>
       <p>Рассмотрим пять причин, по которым седона круче чем гранд каньон</p>
     </section>
   </section>
-  <section class="reason-1">
+  <section class="reason" class="reason-blue">
     <section class="reason-discription">
       <h3>Настоящий городок</h3>
       <p class="reason-nomber">-№1-</p>
       <p>Седона - не аттракцион для туристов, там течёт своя жизнь</p>
     </section>
     <section class="place-picture">
-      <a href="#"><img src="http://placehold.it/801x260" alt="Городок"> </a>
+      <img src="http://placehold.it/801x260" alt="Городок">
     </section>
   </section>
-  <article class="services">
+  <div class="services">
     <h2 class="visual-hidden">Услуги</h2>
-    <article class="home">
-      <a href="#"><img src="img/icon-1.svg" width="75" height="75" alt="домик"></a>
+    <div class="services-item">
       <h3>Жилье</h3>
       <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
-    </article>
-    <article class="food">
-      <a href="#"><img src="img/icon-2.svg" width="75" height="75" alt="бургер"></a>
+    </div>
+    <div class="services-item">
       <h3>Еда</h3>
       <p>Всегда заказывайте фирменый бургер, вы не разочаруетесь!</p>
-    </article>
-    <article class="souvenirs">
-      <a href="#"><img src="img/icon-3.svg" width="75" height="75" alt="подарок"></a>
+    </div>
+    <div class="services-item">
       <h3>Сувениры</h3>
       <p>Не только китайского, но и местного производства!</p>
-    </article>
-  </article>
-  <section class="reason-2">
+    </div>
+  </div>
+  <section class="reason" class="reason-blue">
     <section class="place-picture">
-      <a href="#"><img src="http://placehold.it/801x260" alt="Каньон"> </a>
+    <img src="http://placehold.it/801x260" alt="Каньон">
     </section>
-    <section class="reason-discription">
+    <div class="reason-item">
       <h3>Там есть мост дьявола</h3>
       <p class="reason-nomber">-№2-</p>
       <p>Да,по нему можно пройти! Если вы конечно осмелитесь</p>
-    </section>
+    </div>
   </section>
-  <section class="other-reason">
+  <section class="reason">
     <h2 class="visual-hidden">Остальные причины</h2>
-    <section class="more-reason">
+    <div class="reason-item">
       <h3>Небольшая площадь</h3>
       <p class="reason-nomber">-№3-</p>
       <p>Все достопримечательности находятся очень близко</p>
-    </section>
+    </div>
     <section class="more-reason">
       <h3>Красивая дорога</h3>
       <p class="reason-nomber">-№4-</p>
@@ -89,56 +85,46 @@
     <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
   </div>
   <div class="search-header">
-    <h2>Поиск гостиницы в Седоне</h2>
+    <h2><a href="#">Поиск гостиницы в Седоне</a></h2>
   </div>
   </section>
   <section class="hotel-search">
-    <form class="hotelsearch-form" action="https://echo.htmlacademy.ru" method="post">
+    <form class="hotelsearch-form" action="https://echo.htmlacademy.ru" method="get">
       <label for="arrival-date">Дата заезда:</label>
-        <input type="date" name="date" value="24 апреля 2017">
+        <input id="arrival-date" type="text" name="date" value="24 апреля 2017">
+        <button type="button"><img src="img/calendar.svg" alt="календарик"></button>
       <label for="date-of-departure">Дата выезда:</label>
-        <input type="date" name="date" value="4 июля 2017">
+        <input id="date-of-departure" type="text" name="date" value="4 июля 2017">
+        <button type="button"><img src="img/calendar.svg" alt="календарик"></button>
       <label for="adults">Взрослых:</label>
-        <button type="button" name="minus">-</button>
-        <input type="number" name="adults" value="2">
-        <button type="button" name="plus">+</button>
+        <button type="button">-</button>
+        <input id="adults" type="number" name="adults" value="2">
+        <button type="button">+</button>
       <label for="children">Детей:</label>
-        <button type="button" name="minus">-</button>
-        <input type="number" name="children" value="0">
-        <button type="button" name="plus">+</button>
-        <button type="submit" name="to-find">Найти</button>
+        <button type="button">-</button>
+        <input id="children" type="number" name="children" value="0">
+        <button type="button">+</button>
+        <button type="submit">Найти</button>
     </form>
   </section>
 </main>
 
 <footer class="page-footer">
-  <article class="#">
+  <section class="#">
     <a href="#">#Visitsedona</a>
-  </article>
-<article class="social-webs">
+  </section>
+<section class="social-webs">
   <ul>
-    <li>
-    <a href="#">
-      <img src="http://placehold.it/46x48" alt="Twitter">
-    </a>
-    </li>
-    <li>
-    <a href="#">
-      <img src="http://placehold.it/46x48" alt="Facebook">
-    </a>
-    </li>
-    <li>
-    <a href="#">
-      <img src="http://placehold.it/46x48" alt="Youtube">
-    </a>
-    </li>
+      <li><img src="http://placehold.it/46x48" alt="Twitter"></li>
+      <li><img src="http://placehold.it/46x48" alt="Facebook"></li>
+      <li><img src="http://placehold.it/46x48" alt="Youtube"></li>
   </ul>
-</article>
-<article class="Html-Academy">
+</section>
+<div class="Html-Academy">
   <a href="https://htmlacademy.ru/">
     <img src="img/logo-htmlacademy.svg" width="200" height="40" alt="Ссылка на академию">
   </a>
-</article>
+</div>
 </footer>
   </body>
 </html>
