@@ -11,7 +11,7 @@ body{
   margin: 0;
   padding: 0;
 
-  font-family: 'PT Sans', Arial, sans-serif;
+  font-family: 'PT Sans', 'Arial', sans-serif;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
@@ -36,6 +36,13 @@ a{
   color: #000000;
   font-weight: 700;
 }
+.welkome-to-sedona{
+  width: 1200px;
+  height: 510px;
+  background-image: url("../img/mountain.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
 .discription-sedona{
   text-align: center;
 }
@@ -48,6 +55,8 @@ a{
   text-align: center;
 }
 .reason .reason-blue{
+  width: 400;
+  height: 256;
   color: #ffffff;
 
   background-color: #81b3d2;
@@ -62,11 +71,92 @@ a{
   background-color: #eeeeee;
 }
 .search-header{
+  width: 568;
+  height: 86;
   color: #ffffff;
 
   background-color: #766357;
 }
-.search-header a{
-  color: #ffffff;
+.interested{
+  font-size: 14px;
+  line-height: 24px;
+}
+.interested strong{
+  font-size: 30px;
+  line-height: 36px;
+}
+.hotel-search{
+  line-height: 26px;
   font-weight: 700;
+}
+.hotel-search input{
+  line-height: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.button-grey{
+  font: inherit;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+
+  background-color: #f2f2f2;
+  border: none;
+}
+.button-grey:hover,
+.button-grey:focus{
+  background-color: #ebebeb;
+}
+.button-grey:active{
+  background-color: #ffffff;
+}
+.button-blue{
+  color: #ffffff;
+  font: inherit;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+
+  border: none;
+  background-color: #81b3d2;
+}
+.button-blue:hover,
+.button-blue:focus{
+  background-color: #669ec0;
+}
+.button-blue:active{
+  color: #86b6d1;
+  background-color: #5496bd;
+}
+.button-brown{
+  color: #ffffff;
+  font: inherit;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+
+  border: none;
+  background-color: #766357;
+}
+.button-brown:hover,
+.button-brown:focus{
+  background-color: #604e43;
+}
+.button-brown:active{
+  color: #857871;
+  background-color: #503e33;
+}
+a.button-blue,
+a.button-brown{
+  font-weight: 700;
+}
+.social-webs{
+  list-style: none;
+}
+.visit{
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
 }
