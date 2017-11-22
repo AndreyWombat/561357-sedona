@@ -160,6 +160,57 @@ a.button-brown{
   line-height: 26px;
 }
 .container{
-  width: 1200;
+  width: 1200px;
   margin: 0 auto;
+}
+.selection{
+  background-image: url("../img/blur-mountain.jpg");
+}
+.form-selection{
+  color: white;
+}
+.form-selection legend{
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+}
+.selection-list{
+  list-style: none;
+}
+.options{
+  border: 0;
+}
+.show{
+  color: white;
+  font: inherit;
+  font-weight: 400;
+
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+
+  background: transparent;
+  border: 2px solid white;
+}
+.sort{
+  font-size: 12px ;
+  line-height: 18px;
+}
+.sort a{
+  color: black;
+  opacity: 0.3;
+  border-bottom: 1px dotted #81b3d2;
+}
+.sort a:hover{
+  color: #81b3d2;
+  opacity: 1;
+  border-bottom: 1px dotted #81b3d2;
+}
+.sort a:active{
+  color: black;
+  opacity: 1;
+  border: none;
+}
+.rating{
+  background-color: #f2f2f2;
 }
