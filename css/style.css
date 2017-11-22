@@ -37,8 +37,6 @@ a{
   font-weight: 700;
 }
 .welkome-to-sedona{
-  width: 1200px;
-  height: 510px;
   background-image: url("../img/mountain.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -70,12 +68,9 @@ a{
 .grey{
   background-color: #eeeeee;
 }
-.search-header{
-  width: 568;
-  height: 86;
-  color: #ffffff;
-
-  background-color: #766357;
+.search-header a{
+  font-size: 21px;
+  line-height: 26px;
 }
 .interested{
   font-size: 14px;
@@ -159,4 +154,12 @@ a.button-brown{
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
+}
+.hotel-search .button-blue{
+  font-size: 21px;
+  line-height: 26px;
+}
+.container{
+  width: 1200;
+  margin: 0 auto;
 }
