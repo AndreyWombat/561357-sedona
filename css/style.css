@@ -39,7 +39,8 @@ a{
 .site-navigation a:hover{
   color: #81b3d2;
 }
-.site-navigation a:focus{
+.site-navigation a:active{
+  color: black;
   opacity: 0.3;
 }
 .site-navigation a.active,
@@ -53,8 +54,8 @@ a{
   width: 1200px;
   height: 510px;
   padding: 76px 371px 80px;
-  background-image: url("../img/mountain.jpg");
-  background-position: 0 -76px;
+  background-image:url("../img/white.png"), url("../img/mountain.jpg");
+  background-position: 0 100%, 0 -76px;
   background-repeat: no-repeat;
 }
 .discription-sedona{
@@ -239,7 +240,7 @@ a.button-brown{
 .sort a.active:active{
   color:#81b3d2;
   opacity: 1;
-  border; none;
+  border: none;
 }
 .caption.hotel:hover{
   color: #81b3d2;
