@@ -24,13 +24,23 @@ a{
   text-decoration: none;
 }
 .main-navigation{
+  display: flex;
   line-height: 26px;
   font-weight: 700;
   color: #000000;
   background-color: #ffffff;
 }
 .site-navigation{
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
   list-style: none;
+}
+.main-logo{
+  position: absolute;
+  top: 0;
+  left: 610px;
 }
 .site-navigation a{
   color: #000000;
@@ -59,6 +69,15 @@ a{
   background-repeat: no-repeat;
 }
 .discription-sedona{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  padding-left: 380px;
+  padding-right: 380px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   text-align: center;
 }
 .caption{
@@ -67,19 +86,51 @@ a{
   font-weight: 700;
 }
 .reason {
+  display: flex;
+  align-items: stretch;
+  height: 256px;
+  margin: 0;
+
+  align-content: center;
+
   text-align: center;
 }
-.reason .reason-blue{
-  width: 400;
-  height: 256;
-  color: #ffffff;
+.search-header{
+width: 568px;
+height: 86px;
 
+/*временный цвет*/
+background-color: red;
+}
+.reason-blue{
+  padding-top: 50px;
+  padding-bottom: 64px;
+  color: #ffffff;
   background-color: #81b3d2;
 }
+.other{
+  padding-top: 50px;
+  padding-bottom: 64px;
+
+  background-color: #eeeeee;
+}
+.more-reason{
+  width: 33%;
+}
+.hotelsearch-header{
+  display: flex;
+  height: 291px;
+}
 .services{
+  display: flex;
+  height: 330px;
+
   text-align: center;
 }
 .interested{
+  margin-left: 385px;
+  margin-left: 385px;
+  margin-top: 60px;
   text-align: center;
 }
 .grey{
@@ -248,4 +299,18 @@ a.button-brown{
 .caption.hotel:active{
   color: black;
   opacity: 0.3;
+}
+.page-footer{
+  opacity: 0.9;
+
+  display: flex;
+  justify-content: space-around;
+}
+.visitsedona{
+  width: 400px;
+  padding-top: 51px;
+  padding-bottom: 53px;
+}
+.social-webs-list{
+  width: 400px;
 }
