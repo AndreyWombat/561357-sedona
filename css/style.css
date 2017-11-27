@@ -293,10 +293,13 @@ a.button-brown{
   opacity: 1;
   border: none;
 }
-.caption.hotel:hover{
+.hotel a{
+  color: black;
+}
+.hotel a:hover{
   color: #81b3d2;
 }
-.caption.hotel:active{
+.hotel a:active{
   color: black;
   opacity: 0.3;
 }
@@ -313,4 +316,10 @@ a.button-brown{
 }
 .social-webs-list{
   width: 400px;
+}
+.html-academy{
+  width: 400px;
+  padding-right: 101px;
+  padding-top: 40px;
+  padding-bottom: 39px
 }
