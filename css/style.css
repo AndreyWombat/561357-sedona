@@ -23,24 +23,53 @@ body{
 a{
   text-decoration: none;
 }
+.container{
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
 .main-navigation{
-  display: flex;
   line-height: 26px;
   font-weight: 700;
   color: #000000;
   background-color: #ffffff;
+
 }
 .site-navigation{
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 56px;
   display: flex;
-  justify-content: space-around;
-  align-content: space-around;
-  align-items: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
   list-style: none;
+}
+.site-navigation li{
+  width: 20%;
+}
+.site-navigation li:nth-child(4n+1){
+text-align: left;
+padding-left: 72px;
+}
+.site-navigation li:nth-child(4n+2){
+text-align: left;
+padding-left: 73px;
+
+margin-right: auto;
+}
+.site-navigation li:nth-child(4n+3){
+text-align: right;
+padding-right: 73px;
+}
+.site-navigation li:nth-child(4n+4){
+text-align: right;
+padding-right: 72px;
 }
 .main-logo{
   position: absolute;
   top: 0;
-  left: 610px;
+  left: 531px;
 }
 .site-navigation a{
   color: #000000;
@@ -60,11 +89,10 @@ a{
   opacity: 1;
 }
 .welkome-to-sedona{
-  position: center;
   width: 1200px;
   height: 510px;
   padding: 76px 371px 80px;
-  background-image:url("../img/white.png"), url("../img/mountain.jpg");
+  background-image: url("../img/white.png"), url("../img/mountain.jpg");
   background-position: 0 100%, 0 -76px;
   background-repeat: no-repeat;
 }
@@ -227,10 +255,7 @@ a.button-brown{
   font-size: 21px;
   line-height: 26px;
 }
-.container{
-  width: 1200px;
-  margin: 0 auto;
-}
+
 .selection{
   background-image: url("../img/blur-mountain.jpg");
 }
