@@ -27,6 +27,11 @@ a{
   position: relative;
   width: 1200px;
   margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2)
+}
+.container ul{
+  padding-left: 0;
+  list-style: none;
 }
 .main-navigation{
   line-height: 26px;
@@ -36,9 +41,9 @@ a{
 
 }
 .site-navigation{
-  padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
+  padding-top: 15px;
   height: 56px;
   display: flex;
   flex-wrap: wrap;
@@ -120,6 +125,8 @@ padding-right: 72px;
   text-align: center;
 }
 .reason-blue{
+  padding-left: 50px;
+  padding-right: 50px;
   padding-top: 49px;
   padding-bottom: 49px;
   color: #ffffff;
@@ -176,7 +183,7 @@ padding-right: 72px;
   background-color: #604e43;
 }
 .search-brown:active{
-  color: #857871;
+  color:rgba(255, 255, 255, 0.7);
   background-color: #503e33;
 }
 .hotel-search{
@@ -218,7 +225,7 @@ padding-right: 72px;
   background-color: #669ec0;
 }
 .button-blue:active{
-  color: #86b6d1;
+  color:rgba(255, 255, 255, 0.7);
   background-color: #5496bd;
 }
 .button-brown{
@@ -235,7 +242,7 @@ padding-right: 72px;
   background-color: #604e43;
 }
 .button-brown:active{
-  color: #857871;
+  color:rgba(255, 255, 255, 0.7);
   background-color: #503e33;
 }
 a.button-blue,
@@ -246,6 +253,7 @@ a.button-brown{
   list-style: none;
 }
 .visit{
+  display: block;
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
@@ -256,23 +264,29 @@ a.button-brown{
   font-size: 21px;
   line-height: 26px;
 }
-
-.selection{
-  background-image: url("../img/blur-mountain.jpg");
-}
 .form-selection{
+  display: flex;
+  height: 218px;
+  width: 1200px;
+  }
+.selection{
+  display: flex;
+  background-image: url("../img/blur-mountain.jpg");
   color: white;
+  width: 1200px;
+
 }
+
 .form-selection legend{
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
 }
-.selection-list{
-  list-style: none;
-}
+
 .options{
   border: 0;
+  width: 300px;
+
 }
 .show{
   color: white;
@@ -291,8 +305,19 @@ a.button-brown{
   background-color: white;
 }
 .sort{
+  display: flex;
+  align-items: center;
+  margin: auto;
   font-size: 12px ;
   line-height: 18px;
+  width: 1200px;
+  padding-bottom: 0;
+}
+hr{
+  margin: 0;
+}
+.sorting{
+  display: flex;
 }
 .sort a{
   color: black;
@@ -331,21 +356,9 @@ a.button-brown{
 }
 .page-footer{
   opacity: 0.9;
-
   display: flex;
   justify-content: space-around;
-}
-.visitsedona{
-  width: 400px;
-  padding-top: 51px;
-  padding-bottom: 53px;
-}
-.social-webs-list{
-  width: 400px;
-}
-.html-academy{
-  width: 400px;
-  padding-right: 101px;
-  padding-top: 40px;
-  padding-bottom: 39px
+  height: 120px;
+  text-align: center;
+  align-items: center;
 }
