@@ -89,36 +89,39 @@
     <a class="search-brown" href="#">Поиск гостиницы в Седоне</a>
 
   </section>
-  <section class="hotel-search">
-    <form class="hotelsearch-form" action="https://echo.htmlacademy.ru" method="get">
-      <label for="arrival-date">Дата заезда:</label>
-        <input id="arrival-date" type="text" name="date-1" value="24 апреля 2017">
-        <button class="button-grey" type="button"><span class="visual-hidden">Календарик</span></button>
-      <label for="date-of-departure">Дата выезда:</label>
-        <input id="date-of-departure" type="text" name="date-2" value="4 июля 2017">
-        <button class="button-grey" type="button"><span class="visual-hidden">Календарик</span></button>
-      <label for="adults">Взрослых:</label>
-        <button class="button-grey" type="button">-</button>
-        <input id="adults" type="number" name="adults" value="2">
-        <button class="button-grey" type="button">+</button>
-      <label for="children">Детей:</label>
-        <button class="button-grey" type="button">-</button>
-        <input id="children" type="number" name="children" value="0">
-        <button class="button-grey" type="button">+</button>
-        <button class="button-blue" type="submit">Найти</button>
-    </form>
-  </section>
+
+  <div class="map">
+    <section class="hotel-search">
+      <form class="hotelsearch-form" action="https://echo.htmlacademy.ru" method="get">
+        <label for="arrival-date">Дата заезда:</label>
+          <input id="arrival-date" type="text" name="date-1" value="24 апреля 2017">
+          <button class="button-grey" type="button"><span class="visual-hidden">Календарик</span></button>
+        <label for="date-of-departure">Дата выезда:</label>
+          <input id="date-of-departure" type="text" name="date-2" value="4 июля 2017">
+          <button class="button-grey" type="button"><span class="visual-hidden">Календарик</span></button>
+        <label for="adults">Взрослых:</label>
+          <button class="button-grey" type="button">-</button>
+          <input id="adults" type="number" name="adults" value="2">
+          <button class="button-grey" type="button">+</button>
+        <label for="children">Детей:</label>
+          <button class="button-grey" type="button">-</button>
+          <input id="children" type="number" name="children" value="0">
+          <button class="button-grey" type="button">+</button>
+          <button class="button-blue" type="submit">Найти</button>
+      </form>
+    </section>
+  </div>
 </main>
 
-<footer class="page-footer">
-    <a class="visit" href="#">#Visitsedona</a>
-
+<footer class="page-footer footer-index">
+  <div class="visit-wrapper">
+      <a class="visit" href="#">#Visitsedona</a>
+  </div>
   <ul class="social-webs">
-      <li><a class="button-blue" href="#"> <span class="visual-hidden">Twitter</span></a></li>
-      <li><a class="button-blue" href="#"> <span class="visual-hidden">Facebook</span></a></li>
-      <li><a class="button-blue" href="#"> <span class="visual-hidden">Youtube</span></a></li>
+      <li><a class="button-blue" href="#"> <span class="visually-hidden">Twitter</span></a></li>
+      <li><a class="button-blue" href="#"> <span class="visually-hidden">Facebook</span></a></li>
+      <li><a class="button-blue" href="#"> <span class="visually-hidden">Youtube</span></a></li>
   </ul>
-
 <div class="html-academy">
   <span>website by</span>
   <a href="https://htmlacademy.ru/">
